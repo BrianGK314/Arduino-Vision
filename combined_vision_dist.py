@@ -70,25 +70,6 @@ while True:
         print(current_name)
 
     time.sleep(0.3)
-#     for class_id,score,bbox in zip(class_ids,scores,bboxes):
-#         (x,y,w,h) = bbox
-#         print(x,y,w,h)
-#         name = classes[class_id]
-#         cv2.putText(frame,name,(x,y-5),2,cv2.FONT_HERSHEY_PLAIN,(200,0,50),2)
-#         cv2.rectangle(frame,(x,y),(x+w,y+h),(200,0,50),3 )
-
-
-#    cv2.imshow("Frame",frame)
-
-    ### Arduino -Python Interface II
-
-
-#     if ser.in_waiting:
-#         packet = ser.readline()
-# #        packet_data = packet.decode("utf")
-#         if (pre_dist != packet_data) and (packet_data):
-#             pre_dist = packet_data
-#             print(packet_data)
 
 ###########
 # Synchronisation issue:
